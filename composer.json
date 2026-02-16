@@ -1,0 +1,20 @@
+{
+  "name": "ayoubbarahal/dummy-package",
+  "description": "This package should not be used; it is for testing purposes only.",
+  "type": "library",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DummyPackage\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ayoubbarahal",
+      "email": "a.barahal@void.fr"
+    }
+  ]
+}
